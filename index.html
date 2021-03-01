@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Zen</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
@@ -13,14 +14,25 @@
 
 
     <script>
-      // Your web app's Firebase configuration
-      //add here
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+        var firebaseConfig = {
+            apiKey: "AIzaSyD5rRUHnhtmTtT4eo8Gzxwi9xOTkeFtuqU",
+            authDomain: "class-36-1339c.firebaseapp.com",
+            databaseURL: "https://class-36-1339c-default-rtdb.firebaseio.com",
+            projectId: "class-36-1339c",
+            storageBucket: "class-36-1339c.appspot.com",
+            messagingSenderId: "337522117272",
+            appId: "1:337522117272:web:fb35ba97d94c1e75d7deed"
+        }
+        firebase.initializeApp(firebaseConfig);
     </script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <script src="js/form.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
     <script src="sketch.js"></script>
-  </body>
+</body>
+
 </html>
